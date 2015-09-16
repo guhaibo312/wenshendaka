@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="jNX-Xz-0hl" customClass="ShopUserView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-60.png" translatesAutoresizingMaskIntoConstraints="NO" id="fdV-SL-jf6">
+                    <rect key="frame" x="135" y="20" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="B4c-VK-4ej"/>
+                        <constraint firstAttribute="height" constant="50" id="pSp-up-Epa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="羊羊羊" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2K-Wk-MVZ">
+                    <rect key="frame" x="0.0" y="75" width="320" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="fpq-LU-dy4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主理人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9e-Q7-Lcu">
+                    <rect key="frame" x="0.0" y="90" width="320" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="8Gd-B0-Y2e"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.99215686270000003" green="0.56470588239999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gs-Ng-LDF">
+                    <rect key="frame" x="135" y="20" width="50" height="50"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="headerClick:" destination="jNX-Xz-0hl" eventType="touchUpInside" id="VVY-19-57P"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="D2K-Wk-MVZ" firstAttribute="top" secondItem="fdV-SL-jf6" secondAttribute="bottom" constant="5" id="6ox-i9-qRt"/>
+                <constraint firstAttribute="trailing" secondItem="G9e-Q7-Lcu" secondAttribute="trailing" id="Ku6-2G-BAU"/>
+                <constraint firstAttribute="centerX" secondItem="fdV-SL-jf6" secondAttribute="centerX" id="Qkw-gF-BcK"/>
+                <constraint firstItem="2gs-Ng-LDF" firstAttribute="top" secondItem="fdV-SL-jf6" secondAttribute="top" id="S8g-wE-dkO"/>
+                <constraint firstItem="2gs-Ng-LDF" firstAttribute="width" secondItem="fdV-SL-jf6" secondAttribute="width" id="YDb-7f-7pW"/>
+                <constraint firstItem="2gs-Ng-LDF" firstAttribute="leading" secondItem="fdV-SL-jf6" secondAttribute="leading" id="ZfZ-kj-Irn"/>
+                <constraint firstItem="D2K-Wk-MVZ" firstAttribute="leading" secondItem="jNX-Xz-0hl" secondAttribute="leading" id="den-Yd-aui"/>
+                <constraint firstItem="G9e-Q7-Lcu" firstAttribute="leading" secondItem="jNX-Xz-0hl" secondAttribute="leading" id="hjz-g2-kcx"/>
+                <constraint firstItem="G9e-Q7-Lcu" firstAttribute="top" secondItem="D2K-Wk-MVZ" secondAttribute="bottom" id="jIk-2D-DUG"/>
+                <constraint firstItem="fdV-SL-jf6" firstAttribute="top" secondItem="jNX-Xz-0hl" secondAttribute="top" constant="20" id="ppE-2Z-DA1"/>
+                <constraint firstItem="2gs-Ng-LDF" firstAttribute="height" secondItem="fdV-SL-jf6" secondAttribute="height" id="t99-9i-xYD"/>
+                <constraint firstAttribute="trailing" secondItem="D2K-Wk-MVZ" secondAttribute="trailing" id="uri-GM-FgW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="admin" destination="G9e-Q7-Lcu" id="0mY-5n-7L7"/>
+                <outlet property="headerIcon" destination="fdV-SL-jf6" id="cJq-Xc-Mkj"/>
+                <outlet property="name" destination="D2K-Wk-MVZ" id="rSA-XE-33o"/>
+            </connections>
+            <point key="canvasLocation" x="514" y="356"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-60.png" width="60" height="60"/>
+    </resources>
+</document>

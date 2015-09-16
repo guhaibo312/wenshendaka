@@ -1,0 +1,18 @@
+//
+//  Bshopkeeper-Prefix.pch
+//  Bshopkeeper
+//
+//  Created by jinwei on 15/3/10.
+//  Copyright (c) 2015年 jinwei. All rights reserved.
+//
+
+#ifndef Bshopkeeper_Bshopkeeper_Prefix_pch
+#define Bshopkeeper_Bshopkeeper_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIUtils.h"
+#import "Configurations.h"
+
+#endif

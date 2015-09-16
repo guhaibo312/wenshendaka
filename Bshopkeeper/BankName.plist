@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PBOCCNBJ</key>
+	<string>中国人民银行</string>
+	<key>EIBCCNBJ</key>
+	<string>中国进出口银行</string>
+	<key>ADBNCNBJ</key>
+	<string>中国农业发展银行</string>
+	<key>ICBKCNBJ</key>
+	<string>中国工商银行</string>
+	<key>ABOCCNBJ</key>
+	<string>中国农业银行</string>
+	<key>BKCHCNBJ</key>
+	<string>中国银行</string>
+	<key>PCBCCNBJ</key>
+	<string>中国建设银行</string>
+	<key>COMMCNSH</key>
+	<string>交通银行</string>
+	<key>SDBCCNBJ</key>
+	<string>国家开发银行</string>
+	<key>PSBCCNBJ</key>
+	<string>中国邮政储蓄银行</string>
+	<key>EVERCNBJ</key>
+	<string>中国光大银行</string>
+	<key>MSBCCNBJ</key>
+	<string>中国民生银行</string>
+	<key>CMBCCNBS</key>
+	<string>招商银行</string>
+	<key>FJIBCNBA</key>
+	<string>兴业银行</string>
+	<key>CIBKCNBJ</key>
+	<string>中信银行</string>
+	<key>HXBKCNBJ</key>
+	<string>华夏银行</string>
+	<key>SPDBCNSJ</key>
+	<string>上海浦东发展银行</string>
+	<key>SZDBCNBS</key>
+	<string>深圳发展银行</string>
+	<key>SZCBCNBS</key>
+	<string>平安银行</string>
+	<key>GDBKCN22</key>
+	<string>广发银行</string>
+	<key>CHBHCNBT</key>
+	<string>渤海银行</string>
+	<key>HFBACNSD</key>
+	<string>恒丰银行</string>
+</dict>
+</plist>

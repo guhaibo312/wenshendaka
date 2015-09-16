@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0JD-yW-00Q" customClass="ShopMapTopView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="南湖中园" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C22-Dr-VDk">
+                    <rect key="frame" x="10" y="0.0" width="300" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="MDD-V8-CUm"/>
+                        <constraint firstAttribute="width" secondItem="C22-Dr-VDk" secondAttribute="height" multiplier="10:1" id="Wbm-iF-Ljl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="朝阳区湖光中街" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzq-c5-yqr">
+                    <rect key="frame" x="10" y="30" width="300" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZLo-DD-qlt">
+                    <rect key="frame" x="10" y="70" width="300" height="60"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9i-Dn-mBL">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="O05-NB-qsZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请确认当前定位地址，是您的实际地址。以便用户能方便的找到您。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmA-WT-For">
+                            <rect key="frame" x="40" y="0.0" width="260" height="60"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="S9i-Dn-mBL" firstAttribute="top" secondItem="ZLo-DD-qlt" secondAttribute="top" id="KSe-df-fET"/>
+                        <constraint firstItem="KmA-WT-For" firstAttribute="top" secondItem="ZLo-DD-qlt" secondAttribute="top" id="YxH-cp-3vQ"/>
+                        <constraint firstAttribute="bottom" secondItem="S9i-Dn-mBL" secondAttribute="bottom" id="aOQ-Ju-JNT"/>
+                        <constraint firstItem="KmA-WT-For" firstAttribute="leading" secondItem="S9i-Dn-mBL" secondAttribute="trailing" id="eCm-AW-F62"/>
+                        <constraint firstAttribute="trailing" secondItem="KmA-WT-For" secondAttribute="trailing" id="qdf-ar-kTU"/>
+                        <constraint firstItem="S9i-Dn-mBL" firstAttribute="leading" secondItem="ZLo-DD-qlt" secondAttribute="leading" id="td4-kL-rDp"/>
+                        <constraint firstAttribute="bottom" secondItem="KmA-WT-For" secondAttribute="bottom" id="uad-0r-ET0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="C22-Dr-VDk" firstAttribute="top" secondItem="0JD-yW-00Q" secondAttribute="top" id="IUq-bu-h9b"/>
+                <constraint firstItem="ZLo-DD-qlt" firstAttribute="leading" secondItem="Tzq-c5-yqr" secondAttribute="leading" id="Ip8-gU-foQ"/>
+                <constraint firstItem="Tzq-c5-yqr" firstAttribute="top" secondItem="C22-Dr-VDk" secondAttribute="bottom" id="OPy-94-Vn1"/>
+                <constraint firstItem="C22-Dr-VDk" firstAttribute="height" secondItem="Tzq-c5-yqr" secondAttribute="height" id="VLa-5Q-b4l"/>
+                <constraint firstItem="C22-Dr-VDk" firstAttribute="leading" secondItem="0JD-yW-00Q" secondAttribute="leading" constant="10" id="Vsx-8D-b59"/>
+                <constraint firstItem="C22-Dr-VDk" firstAttribute="width" secondItem="Tzq-c5-yqr" secondAttribute="width" id="dZm-ZN-o80"/>
+                <constraint firstItem="ZLo-DD-qlt" firstAttribute="trailing" secondItem="Tzq-c5-yqr" secondAttribute="trailing" id="lgN-Br-Qen"/>
+                <constraint firstItem="ZLo-DD-qlt" firstAttribute="top" secondItem="Tzq-c5-yqr" secondAttribute="bottom" constant="10" id="nEz-K1-FRC"/>
+                <constraint firstItem="C22-Dr-VDk" firstAttribute="leading" secondItem="Tzq-c5-yqr" secondAttribute="leading" id="pJc-b5-KlG"/>
+                <constraint firstAttribute="bottom" secondItem="ZLo-DD-qlt" secondAttribute="bottom" constant="10" id="vu3-rO-LcY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="address" destination="Tzq-c5-yqr" id="PAY-bz-8oN"/>
+                <outlet property="bjView" destination="ZLo-DD-qlt" id="WYc-LB-iPV"/>
+                <outlet property="descriptionText" destination="C22-Dr-VDk" id="Ods-F0-EyZ"/>
+            </connections>
+            <point key="canvasLocation" x="362" y="193"/>
+        </view>
+    </objects>
+</document>
