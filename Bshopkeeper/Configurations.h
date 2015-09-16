@@ -131,10 +131,10 @@
 
 #ifdef DEBUG
 ////host  测试------------------------------------------------------------------------------
-//#define API_HOST "http://123.57.42.13/WenShen/V2.0.0"
+#define API_HOST "http://123.57.42.13/WenShen/V2.0.0"
 
 
-#define API_HOST "http://192.168.199.105/WenShen/V2.0.0"
+//#define API_HOST "http://192.168.199.105/WenShen/V2.0.0"
 
 #define API_SquareHost "http://123.57.42.13:3366"
 

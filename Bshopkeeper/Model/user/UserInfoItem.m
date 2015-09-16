@@ -192,10 +192,11 @@
  */
 - (void)logInSucessSaveInfo:(NSDictionary *)result
 {
+    HBLog(@"%@------result",result);
     if (!result && !self) return;
     NSDictionary *userInfo = [[result objectForKey:@"data"]objectForKey:@"userInfo"];
     
-    HBLog(@"recommendationSetting----------%@",[[result objectForKey:@"data"]objectForKey:@"recommendationSetting"]);
+//    HBLog(@"recommendationSetting----------%@",[[result objectForKey:@"data"]objectForKey:@"recommendationSetting"]);
     
     NSDictionary *storeInfo = [[result objectForKey:@"data"]objectForKey:@"storeInfo"];
     UserInfoItem *userItem = [[UserInfoItem alloc]init];
